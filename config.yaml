@@ -1,0 +1,52 @@
+project:
+  name: churn-prediction
+  version: "1.0"
+
+data:
+  raw_path: data/raw/churn.csv
+  new_data_path: data/raw/new_churn.csv
+
+models:
+  directory: models
+
+artifacts:
+  directory: artifacts
+
+reports:
+  directory: reports
+
+logs:
+  directory: logs
+
+mlflow:
+  tracking_uri: mlruns
+  experiment_name: churn-prediction
+  registered_model_name: churn_prediction_model
+
+training:
+  test_size: 0.2
+  random_state: 42
+
+validation:
+  required_columns:
+    - customerID
+    - gender
+    - SeniorCitizen
+    - Partner
+    - Dependents
+    - tenure
+    - PhoneService
+    - MultipleLines
+    - InternetService
+    - OnlineSecurity
+    - OnlineBackup
+    - DeviceProtection
+    - TechSupport
+    - StreamingTV
+    - StreamingMovies
+    - Contract
+    - PaperlessBilling
+    - PaymentMethod
+    - MonthlyCharges
+    - TotalCharges
+    - Churn
