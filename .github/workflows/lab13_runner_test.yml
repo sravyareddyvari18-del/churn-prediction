@@ -4,7 +4,7 @@ name: Lab 13 - Self Hosted Runner Test
 on:
   push:
     branches:
-      - lab13-integration
+      - main
   workflow_dispatch:
 
 jobs:
@@ -14,7 +14,11 @@ jobs:
     steps:
       - name: Check Python
         shell: powershell
-        run: .\.venv\Scripts\python.exe --version
+        
+        run: |
+          python --version
+          Write-Host "Python is working!"
+
 
       - name: Check Git
         shell: powershell
