@@ -35,3 +35,23 @@ Thumbs.db
 *.egg-info/
 dist/
 build/
+
+# Generated Docker image archives
+*.tar
+
+# Generated datasets and model outputs
+data/raw/archive/
+data/raw/new_churn.csv
+data/processed/*.npy
+data/processed/*.csv
+data/monitoring/
+
+# Generated experiment outputs
+outputs/
+reports/
+
+# Duplicate folders
+api - Copy/
+
+# Generated model files
+models/*.pkl

@@ -1,0 +1,7 @@
+{
+  "validation_status": "passed",
+  "errors": [],
+  "warnings": [
+    "TotalCharges contains 11 non-numeric/blank values."
+  ]
+}

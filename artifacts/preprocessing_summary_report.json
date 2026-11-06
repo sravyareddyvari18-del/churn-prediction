@@ -2,18 +2,18 @@
     "validation_status": "PASSED",
     "matrix_dimensions": {
         "X_train_shape": [
-            5634,
+            6214,
             30
         ],
         "X_test_shape": [
-            1409,
+            1429,
             30
         ],
         "y_train_shape": [
-            5634
+            6214
         ],
         "y_test_shape": [
-            1409
+            1429
         ]
     },
     "data_quality": {

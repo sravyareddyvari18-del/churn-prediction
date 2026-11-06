@@ -1,7 +1,12 @@
 {
-  "status": "no_new_data",
-  "ingestion_performed": false,
-  "current_rows": 7043,
-  "current_columns": 21,
-  "timestamp": "2026-10-26T15:17:28.497845+00:00"
+  "status": "ingested",
+  "ingestion_performed": true,
+  "dataset_version": "v07",
+  "archive_file": "data/raw/archive/churn_v06.csv",
+  "source_file": "data/raw/new_churn.csv",
+  "new_data_hash": "f365fd60d43c09ae8dfec90807d818ef6e855247cc30023201373ce0d59a55d1",
+  "previous_rows": 7543,
+  "new_rows": 100,
+  "current_rows": 7643,
+  "timestamp": "2026-11-05T12:39:29.824119+00:00"
 }

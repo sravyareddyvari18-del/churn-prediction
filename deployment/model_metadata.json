@@ -1,0 +1,10 @@
+{
+    "model_name": "churn_prediction_model",
+    "model_version": "4",
+    "model_stage": "Production",
+    "run_id": "52ffd9f488644fc0821be4b7c04868d5",
+    "model_source": "models:/m-48c8dd6e9b744736bf0ff170521af6af",
+    "model_id": "m-48c8dd6e9b744736bf0ff170521af6af",
+    "preprocessor_artifact": "preprocessing_pipeline/preprocessor.pkl",
+    "source": "MLflow"
+}
